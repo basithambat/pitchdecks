@@ -59,3 +59,5 @@
 .cover .journey-card .approval{margin-top:16px;padding:12px 14px;border-radius:7px;background:#f4eef1;color:#741938;font-size:13px;line-height:20px;border:1px solid #eaddE3}
 .workflow-caption{font-size:11px;line-height:16px;color:#a18f99;text-align:center;margin-top:15px}
 @media(max-width:700px){.cover .hero-panel{padding:28px 18px;display:flex;flex-direction:column;gap:24px;border-radius:16px;overflow:visible}.workflow-intro h2{font-size:28px}.workflow-intro p{font-size:16px}.cover .journey-card{padding:18px;width:100%}.cover .journey-card h3{font-size:22px;white-space:normal;height:auto;min-height:55px}.cover .journey-card>p{height:auto;min-height:66px}.cover .journey-steps{gap:9px}.cover .journey-steps button{font-size:11px}.cover .journey-card .invoice{padding:14px}.cover .invoice-row{font-size:11px;gap:8px}.cover .invoice-row b{text-align:right}.workflow-caption{font-size:10px}}
+
+.cover .hero-panel{background:linear-gradient(135deg,#4d0b25,#851a42 55%,#a34266);border-color:transparent;color:#fff}.workflow-eyebrow{color:#e6bccb}.workflow-intro h2{color:#fff}.workflow-intro p{color:#eccdda}.cover .journey-card{color:var(--ink)}
