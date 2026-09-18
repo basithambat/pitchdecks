@@ -12,3 +12,11 @@
 .close-slide{background:var(--forest)}.close-slide .close-copy{z-index:1}.close-card{z-index:2}.contact-links{display:flex;gap:30px;margin-top:35px;font-size:20px;color:#ffffffbd}.contact-links a{text-decoration:none}.close-slide .slide-no{color:#ffffff88}
 .variant-switch{position:fixed;left:18px;bottom:18px;z-index:50;font-size:12px;color:#c9c9c4;text-decoration:none;padding:8px 12px;background:#22221f;border:1px solid #ffffff20;border-radius:20px}
 @media print{.variant-switch{display:none}}
+.rivane-quadrant .preferred-quadrant::after{content:"Our target position"}
+.rivane-quadrant .positioning-category{width:auto;height:auto;padding:14px 20px;cursor:default}
+.positioning-category strong{font-size:19px;font-weight:550;letter-spacing:-.025em}
+.rivane-quadrant .rivane-position{flex-direction:column;gap:12px;padding:23px 28px;cursor:default}
+.rivane-quadrant .rivane-position img{width:180px;max-width:none;height:auto}
+.rivane-position small{font-size:12px;letter-spacing:.02em;color:var(--muted)}
+.founder-duo{padding:40px;gap:18px;align-content:center}.founder-duo figure img{height:280px}.founder-companies{grid-column:1/-1;margin-top:26px;border-top:1px solid #1f2f2a30;padding-top:22px}.founder-companies>p{font-size:11px;letter-spacing:.14em;color:var(--muted);margin:0 0 16px}.company-logo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.company-logo{height:80px;overflow:hidden;border-radius:8px;display:flex;align-items:center;justify-content:center;background:white}.company-logo img{width:100%;height:100%;object-fit:contain}.company-logo--ola{background:#000}.company-logo--ola img{width:150px;height:150px;max-width:none}.company-logo--rippling{background:#800066}.company-logo--disney-hotstar{background:#081530}.company-logo--disney-hotstar img{width:140px;height:105px;max-width:none}
+.founder-companies{width:100%;min-width:0}.company-logo--ema img{width:190px;height:111px;max-width:none;flex-shrink:0}
