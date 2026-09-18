@@ -31,3 +31,31 @@
 .hero-foot{margin:24px 0 0;padding:0;font-size:20px;line-height:1.4}
 }
 @media(max-width:700px){.journey-steps{gap:8px}.journey-steps button,.journey-steps button.on,.journey-steps button.done{font-size:12px}.hero-panel{height:auto}.journey-card{padding:20px}.hero-foot{margin-top:24px}}
+/* Focused product workflow on the cover. */
+.cover .hero-panel{background:#f0eeef;color:var(--ink);border:1px solid #e5dfe2;border-radius:20px;padding:42px 38px;box-shadow:none;justify-content:center;gap:28px}
+.workflow-intro{flex:none;padding:0 4px}
+.workflow-eyebrow{display:block;font-size:12px;font-weight:550;letter-spacing:.12em;color:#8b6675;margin-bottom:15px}
+.workflow-intro h2{font-size:34px;line-height:1.15;letter-spacing:-.035em;font-weight:500}
+.workflow-intro p{font-size:18px;line-height:1.5;color:var(--muted);margin-top:10px}
+.cover .journey-card{margin:0;padding:26px;background:#fff;border:1px solid #ded7db;border-radius:14px;box-shadow:0 4px 8px #28152103,0 20px 45px #28152108;transform:none;flex:none}
+.workflow-toolbar{display:flex;justify-content:space-between;align-items:center;gap:15px;padding-bottom:19px;border-bottom:1px solid #eee9ec}
+.workflow-file{font-size:14px;font-weight:500;display:flex;align-items:center;gap:10px;color:#51434b}
+.workflow-file>span{font-size:22px;color:#8c727e}
+.cover #journeyPlay{background:#f5f2f4;border:1px solid #e8e0e4;border-radius:6px;padding:6px 10px;color:#71606a;font-size:12px}
+.cover .journey-steps{margin-top:22px;gap:14px}
+.cover .journey-steps button{font-size:13px;padding-bottom:12px}
+.cover .journey-steps button::before,.cover .journey-steps button::after{height:2px}
+.cover .stage-caption{margin-top:23px;font-size:10px;line-height:16px;letter-spacing:.09em;color:#967b87}
+.cover .journey-card h3{font-size:25px;letter-spacing:-.03em;line-height:1.25;height:32px;min-height:0;margin:9px 0 10px;white-space:nowrap}
+.cover .journey-card>p{font-size:15px;line-height:1.5;height:45px;min-height:0;color:#7b6e75}
+.cover .journey-card .invoice{background:#fbfafb;border:1px solid #eee9ec;border-radius:9px;margin-top:20px;padding:18px}
+.cover .invoice>div:first-child{font-size:12px;color:#64535d}
+.cover .journey-card .invoice-amount{font-size:38px;line-height:1.15;letter-spacing:-.045em;margin:19px 0}
+.cover .invoice-amount span{font-size:12px;line-height:1.4;margin-top:7px}
+.cover .invoice-row{font-size:12px;padding:11px 0;border-color:#e9e2e6}
+.cover .invoice-row:last-child{padding-bottom:0}
+.cover .invoice-row>span{color:#8a7983}
+.cover .invoice-row b{font-weight:500;color:#51414b}
+.cover .journey-card .approval{margin-top:16px;padding:12px 14px;border-radius:7px;background:#f4eef1;color:#741938;font-size:13px;line-height:20px;border:1px solid #eaddE3}
+.workflow-caption{font-size:11px;line-height:16px;color:#a18f99;text-align:center;margin-top:15px}
+@media(max-width:700px){.cover .hero-panel{padding:28px 18px;display:flex;flex-direction:column;gap:24px;border-radius:16px;overflow:visible}.workflow-intro h2{font-size:28px}.workflow-intro p{font-size:16px}.cover .journey-card{padding:18px;width:100%}.cover .journey-card h3{font-size:22px;white-space:normal;height:auto;min-height:55px}.cover .journey-card>p{height:auto;min-height:66px}.cover .journey-steps{gap:9px}.cover .journey-steps button{font-size:11px}.cover .journey-card .invoice{padding:14px}.cover .invoice-row{font-size:11px;gap:8px}.cover .invoice-row b{text-align:right}.workflow-caption{font-size:10px}}
