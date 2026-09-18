@@ -7,5 +7,27 @@
 .journey-card{margin-top:42px;transform:none}.journey-steps{margin-top:26px;gap:7px}.journey-steps button{flex:1;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--muted);padding:12px 3px;font-size:14px;display:flex;flex-direction:column;align-items:center;gap:9px}.journey-steps button b{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--blush);font-size:13px;font-weight:500}.journey-steps button.on{background:var(--wine);border-color:var(--wine);color:white;box-shadow:0 5px 14px #74193825}.journey-steps button.on b{background:white;color:var(--wine)}.journey-steps button.done{border-color:#bf8d9f;color:var(--wine)}.stage-caption{font-size:12px;letter-spacing:.09em;color:var(--wine);margin-top:25px}.journey-card h3{font-size:29px;margin:13px 0 10px;min-height:67px}.journey-card>p{height:48px}.journey-card .invoice{margin-top:20px}.journey-card .invoice-amount{font-size:42px;margin:20px 0}.journey-hint{font-size:12px;text-align:center;color:var(--muted);margin-top:14px}#journeyPlay{border:0;color:var(--wine);font-size:12px;min-width:58px}.hero-foot{margin-top:25px}
 @media(max-width:700px){.journey-card{margin-top:28px}.journey-steps button{font-size:11px;padding:10px 2px}.journey-card h3{font-size:26px;min-height:60px}.journey-card>p{height:auto;min-height:65px}.stage-caption{font-size:10px}.journey-card .invoice-row{font-size:12px}.journey-card .invoice-amount span{font-size:11px}}
 .demo-video-link{display:flex;align-items:center;gap:20px;padding:25px 28px;background:var(--wine);color:white;text-decoration:none;transition:background .2s}.demo-video-link:hover{background:#58102a}.demo-play{display:grid;place-items:center;width:48px;height:48px;border:1px solid #ffffff70;border-radius:50%;font-size:19px;padding-left:3px}.demo-video-link strong{display:block;font-size:25px;font-weight:550;letter-spacing:-.02em}.demo-video-link small{display:block;font-size:16px;color:#eed9e2;margin-top:6px}.demo-arrow{margin-left:auto;font-size:30px}@media(max-width:700px){.demo-video-link{padding:20px 16px;gap:13px}.demo-play{width:38px;height:38px;flex-shrink:0;font-size:15px}.demo-video-link strong{font-size:19px}.demo-video-link small{font-size:13px}.demo-arrow{font-size:24px}}
-
 @media(min-width:701px){.hero-panel{height:872px;min-height:0;padding:32px 46px;display:flex;flex-direction:column}.hero-heading{flex-shrink:0}.journey-card{margin-top:24px;padding:24px;flex-shrink:0}.journey-steps{margin-top:18px}.stage-caption{margin-top:18px}.journey-card h3{min-height:36px;margin:12px 0 10px}.journey-card .invoice{padding:16px;margin-top:16px}.journey-card .invoice-amount{margin:14px 0}.hero-foot{margin-top:auto;padding-top:18px;font-size:20px;line-height:1.35;flex-shrink:0}}
+/* Compact cover workflow, contained within the slide. */
+.journey-steps{display:flex;gap:12px;margin-top:22px}
+.journey-steps button,.journey-steps button.on,.journey-steps button.done{position:relative;display:block;flex:1;border:0;border-radius:0;box-shadow:none;background:transparent;color:var(--muted);padding:0 0 13px;text-align:left;font-size:14px;line-height:20px}
+.journey-steps button b{display:none}
+.journey-steps button::before,.journey-steps button::after{content:"";position:absolute;left:0;bottom:0;height:3px;border-radius:2px;width:100%;background:var(--line)}
+.journey-steps button::after{background:var(--wine);transform-origin:left;transform:scaleX(0)}
+.journey-steps button.on,.journey-steps button.done{color:var(--wine)}
+.journey-steps button.done::after{transform:scaleX(1)}
+.journey-steps button.on::after{transform:scaleX(var(--stage-progress,0))}
+.journey-hint{display:none}
+@media(min-width:701px){
+.cover{grid-template-rows:minmax(0,1fr)}
+.hero-panel{position:absolute;top:14px;bottom:14px;right:14px;left:55%;height:auto;margin:0;padding:32px 38px;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+.journey-card{margin-top:28px;padding:26px;flex:0 0 auto}
+.stage-caption{margin-top:24px}
+.journey-card h3{font-size:28px;min-height:64px;margin:12px 0 8px}
+.journey-card>p{font-size:16px;line-height:1.5;height:48px}
+.journey-card .invoice{padding:18px;margin-top:18px}
+.journey-card .invoice-amount{font-size:40px;margin:16px 0}
+.journey-card .approval{padding:14px;margin-top:16px}
+.hero-foot{margin:24px 0 0;padding:0;font-size:20px;line-height:1.4}
+}
+@media(max-width:700px){.journey-steps{gap:8px}.journey-steps button,.journey-steps button.on,.journey-steps button.done{font-size:12px}.hero-panel{height:auto}.journey-card{padding:20px}.hero-foot{margin-top:24px}}
