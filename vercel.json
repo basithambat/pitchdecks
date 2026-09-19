@@ -3,5 +3,33 @@
   "framework": null,
   "buildCommand": "",
   "installCommand": "",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/rivane",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/rivane/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/v2",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/v2/",
+      "destination": "/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/rivane/index.html"
+    }
+  ]
 }

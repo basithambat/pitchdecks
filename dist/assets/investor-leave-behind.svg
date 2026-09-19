@@ -1,0 +1,90 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDFC"/>
+      <stop offset="1" stop-color="#F3E8EB"/>
+    </linearGradient>
+    <linearGradient id="wine" x1="720" y1="40" x2="1160" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#741938"/>
+      <stop offset="1" stop-color="#2E0C1A"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="760" y1="105" x2="1115" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDFC" stop-opacity=".97"/>
+      <stop offset="1" stop-color="#F4E9ED" stop-opacity=".92"/>
+    </linearGradient>
+    <filter id="shadow" x="710" y="64" width="470" height="510" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#190711" flood-opacity=".3"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" rx="28" fill="url(#paper)"/>
+  <path d="M682 0H1200V630H790L682 500V0Z" fill="url(#wine)"/>
+  <path d="M775 0L1020 0L880 190L775 0Z" fill="#B96A82" fill-opacity=".25"/>
+  <path d="M1200 110L984 352L1200 520V110Z" fill="#E6BBC8" fill-opacity=".18"/>
+  <path d="M780 630L1005 430L1136 630H780Z" fill="#9B3F5D" fill-opacity=".28"/>
+
+  <g transform="translate(70 58)">
+    <path d="M0 2C0 .895.895 0 2 0H23C24.105 0 25 .895 25 2V23C25 24.105 24.105 25 23 25H6C2.686 25 0 22.314 0 19V2Z" fill="#741938"/>
+    <path d="M0 58C0 54.686 2.686 52 6 52H23C24.105 52 25 52.895 25 54V75C25 76.105 24.105 77 23 77H2C.895 77 0 76.105 0 75V58Z" fill="#64152F"/>
+    <path d="M53 71C53 74.314 55.686 77 59 77H77V53L51 27H27V51H43C48.523 51 53 55.477 53 61V71Z" fill="#64152F"/>
+    <path d="M52 5C52 2.239 54.239 0 57 0H77V25H52V5Z" fill="#741938"/>
+    <text x="98" y="57" fill="#291E27" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="650">Rivane</text>
+  </g>
+
+  <text x="70" y="184" fill="#741938" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2.5">INVESTOR LEAVE-BEHIND</text>
+  <text x="70" y="254" fill="#291E27" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="620" letter-spacing="-2.2">
+    <tspan x="70" dy="0">AI that does</tspan>
+    <tspan x="70" dy="68">the accounting.</tspan>
+    <tspan x="70" dy="68">Across your group.</tspan>
+  </text>
+  <text x="70" y="493" fill="#6E626A" font-family="Inter, Arial, sans-serif" font-size="23">
+    AI-native finance for multi-entity groups.
+  </text>
+  <g transform="translate(70 535)">
+    <rect width="208" height="44" rx="22" fill="#741938"/>
+    <circle cx="24" cy="22" r="5" fill="#E9B8C8"/>
+    <text x="41" y="29" fill="#FFF9FB" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="600">MENA → Global</text>
+  </g>
+  <text x="300" y="564" fill="#8C7F87" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="1.4">CONFIDENTIAL</text>
+
+  <g filter="url(#shadow)">
+    <rect x="746" y="82" width="392" height="466" rx="28" fill="url(#glass)"/>
+    <rect x="747" y="83" width="390" height="464" rx="27" stroke="#FFF" stroke-opacity=".8" stroke-width="2"/>
+  </g>
+  <text x="782" y="123" fill="#8A7C84" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600">Rivane · Northstar Group</text>
+  <text x="782" y="154" fill="#291E27" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Propose and approve</text>
+  <rect x="1034" y="112" width="72" height="28" rx="14" fill="#741938"/>
+  <text x="1051" y="131" fill="#FFF" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700">IN REVIEW</text>
+  <line x1="782" y1="178" x2="1103" y2="178" stroke="#DCCED3"/>
+
+  <circle cx="806" cy="215" r="20" fill="#E9DDE1"/>
+  <text x="795" y="221" fill="#5D4F57" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">NS</text>
+  <text x="839" y="209" fill="#291E27" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Annual software subscription</text>
+  <text x="839" y="230" fill="#7B6E76" font-family="Inter, Arial, sans-serif" font-size="13">$12,000 · Source linked</text>
+
+  <rect x="782" y="260" width="150" height="168" rx="16" fill="#F2E8EB"/>
+  <text x="800" y="289" fill="#6C5E66" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">SOURCE CONTEXT</text>
+  <text x="800" y="324" fill="#9A8D94" font-family="Inter, Arial, sans-serif" font-size="11">01</text>
+  <text x="829" y="324" fill="#4B3F46" font-family="Inter, Arial, sans-serif" font-size="12">Invoice</text>
+  <text x="829" y="343" fill="#6E626A" font-family="Inter, Arial, sans-serif" font-size="11">12-month service</text>
+  <text x="800" y="380" fill="#9A8D94" font-family="Inter, Arial, sans-serif" font-size="11">02</text>
+  <text x="829" y="380" fill="#4B3F46" font-family="Inter, Arial, sans-serif" font-size="12">Treatment</text>
+  <text x="829" y="399" fill="#6E626A" font-family="Inter, Arial, sans-serif" font-size="11">Prepaid expense</text>
+
+  <rect x="946" y="260" width="157" height="168" rx="16" fill="#F8F2F4" stroke="#E6DADF"/>
+  <text x="964" y="289" fill="#6C5E66" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">ACCOUNTING PROPOSAL</text>
+  <text x="964" y="326" fill="#83757D" font-family="Inter, Arial, sans-serif" font-size="12">Amount</text>
+  <text x="1054" y="326" fill="#291E27" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">$12,000</text>
+  <line x1="964" y1="342" x2="1085" y2="342" stroke="#E1D4D9"/>
+  <text x="964" y="369" fill="#83757D" font-family="Inter, Arial, sans-serif" font-size="12">Period</text>
+  <text x="1035" y="369" fill="#291E27" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">12 months</text>
+  <line x1="964" y1="385" x2="1085" y2="385" stroke="#E1D4D9"/>
+  <text x="964" y="412" fill="#741938" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">FINANCE APPROVES</text>
+
+  <g transform="translate(782 466)">
+    <circle cx="10" cy="10" r="10" fill="#741938"/>
+    <path d="M6 10L9 13L14.5 7.5" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="15" fill="#291E27" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Evidence stays attached</text>
+    <text x="30" y="38" fill="#7B6E76" font-family="Inter, Arial, sans-serif" font-size="12">Capture → approve → record + trace</text>
+  </g>
+</svg>
