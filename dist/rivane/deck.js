@@ -169,8 +169,8 @@
 
     document.addEventListener('keydown', event => {
       if (event.target.closest('a,button') && event.key === ' ') return;
-      if (event.key === 'ArrowRight' || event.key === 'PageDown' || event.key === ' ') { event.preventDefault(); move(1); }
-      if (event.key === 'ArrowLeft' || event.key === 'PageUp') { event.preventDefault(); move(-1); }
+      if (event.key === 'ArrowRight' || event.key === 'ArrowDown' || event.key === 'PageDown' || event.key === ' ') { event.preventDefault(); move(1); }
+      if (event.key === 'ArrowLeft' || event.key === 'ArrowUp' || event.key === 'PageUp') { event.preventDefault(); move(-1); }
       if (event.key === 'Home') { event.preventDefault(); show(0); }
       if (event.key === 'End') { event.preventDefault(); show(slides.length - 1); }
       if (event.key.toLowerCase() === 'f') toggleFullscreen();
