@@ -1,8 +1,8 @@
-# Rivane / Goodhealth-template version
+# Rivane / Version 2
 
-Open /goodhealth/ for this alternate deck. The original deck remains at /.
+Open /rivane/ for this alternate deck. The original deck is at /rivane-classic/.
 
-The reference presentation's layout CSS, transitions, card animations, navigation and 11-slide sequence are adapted from https://goodhealth-pitch-deck.vercel.app/ at the user's request. Rivane copy, founder photos, logo and product screenshot replace the reference company content. The product slide links to the supplied Trupeer video.
+An 11-slide investor presentation with animated workflow cards, keyboard navigation, Rivane branding, founder photos and product screenshots. The product slide links to the supplied Trupeer video.
 
 Reference decorative paper textures are loaded from the original reference site's assets; Geist is loaded from Google Fonts. Rivane assets are shared from ../assets/.
 

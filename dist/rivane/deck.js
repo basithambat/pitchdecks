@@ -6,6 +6,7 @@
       'Customer',
       'Market',
       'Why now',
+      'Capital momentum',
       'Product',
       'Product status',
       'Competition',
@@ -37,6 +38,8 @@
 
     function scaleDeck() {
       const scale = Math.min(innerWidth / 1600, innerHeight / 900);
+      deck.style.top = "50%";
+      document.body.classList.toggle("controls-over-slide", innerHeight - 900 * scale < 100);
       deck.style.transform = `translate(-50%, -50%) scale(${scale})`;
     }
 
@@ -188,3 +191,28 @@
     }, { passive: true });
   
 addEventListener('hashchange',()=>show((parseInt(location.hash.slice(1))||1)-1,false));
+
+document.querySelectorAll('.erp-trigger').forEach(erpTrigger => {
+const erpCategory = erpTrigger.closest('.positioning-category');
+function setErpOpen(open) {
+  erpCategory.classList.toggle('is-open', open);
+  erpCategory.classList.toggle('is-dismissed', !open);
+  erpTrigger.setAttribute('aria-expanded', String(open));
+}
+erpCategory.addEventListener('mouseenter', () => setErpOpen(true));
+erpCategory.addEventListener('mouseleave', () => {
+  if (!erpCategory.contains(document.activeElement)) setErpOpen(false);
+});
+erpTrigger.addEventListener('focus', () => setErpOpen(true));
+erpTrigger.addEventListener('click', () => setErpOpen(true));
+erpCategory.addEventListener('focusout', event => {
+  if (!erpCategory.contains(event.relatedTarget)) setErpOpen(false);
+});
+document.addEventListener('pointerdown', event => {
+  if (!erpCategory.contains(event.target)) setErpOpen(false);
+});
+erpTrigger.addEventListener('keydown', event => {
+  if (event.key === 'Escape') { event.preventDefault(); setErpOpen(false); }
+});
+
+});

@@ -4,7 +4,14 @@ The current 14-slide presentation, including its logo, product screenshot, style
 
 ## Preview
 
-Open `dist/index.html` in your browser. Use the arrow keys to navigate, O for overview, N for notes and F for fullscreen.
+Two branded deck URLs:
+
+- `/rivane/` — the current presentation
+- `/rivane-classic/` — the original detailed presentation
+
+The root URL opens `/rivane/`. Legacy `/v1/` and `/v2/` links redirect to the corresponding decks, preserving the slide number.
+
+Serve `dist` locally and open either deck URL. Use the arrow keys to navigate, O for overview, N for notes and F for fullscreen.
 
 ## Push to GitHub
 
@@ -28,7 +35,8 @@ Review deployment access settings before sharing. Access protection from the ori
 
 ## Editing
 
-- `dist/index.html`: slide content and source notes
+- `dist/rivane-classic/index.html`: classic slide content and source notes
+- `dist/rivane/index.html`: current slide content
 - `dist/style.css`: base styles
 - `dist/investor.css`: investor-specific layouts
 - `dist/deck.js`: navigation and animation

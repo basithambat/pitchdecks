@@ -1,0 +1,278 @@
+
+.rivane-brand{width:170px;height:auto}.brand-lockup--light .rivane-brand,.why-now .rivane-brand{filter:brightness(0) invert(1)}
+.why-now .brand-lockup{filter:none}
+.problem-quote p{font-size:22px;line-height:1.4;margin:6px 0 0}.problem-time .visit-time-total strong{font-size:66px}.discovery-list{margin:32px 0}.discovery-list>div{padding:20px 0;border-top:1px solid var(--line)}.discovery-list strong{display:block;font-size:32px;font-weight:500;letter-spacing:-.03em}.discovery-list span{display:block;font-size:17px;color:var(--muted);margin-top:9px}
+.finance-board{display:flex;align-items:center;background:var(--sky)}.group-board{width:100%;padding:64px}.group-board h3{font-size:45px;margin-bottom:40px;letter-spacing:-.04em}.entity-record{display:flex;justify-content:space-between;gap:20px;border-top:1px solid #a5bbc8;padding:25px 0;font-size:18px}.entity-record span{color:var(--muted);text-align:right}
+.product-shot{margin:0}.video-cta{display:flex;align-items:center;gap:20px;background:var(--coral);padding:25px 28px;color:white;text-decoration:none}.video-cta>span{font-size:28px}.video-cta strong{display:block;font-size:25px;font-weight:500}.video-cta small{display:block;font-size:16px;margin-top:6px;opacity:.8}.video-cta>b{margin-left:auto;font-size:30px}
+.stage-card{padding:38px!important;background:var(--paper-bright);height:auto;min-height:300px}.stage-card>strong{font-size:80px;font-weight:500;line-height:1;color:var(--coral)}.stage-card h3{font-size:30px;margin:15px 0}.stage-card>p{font-size:19px;line-height:1.4;color:var(--muted)}
+.why-drivers{display:grid;grid-template-columns:repeat(3,1fr);gap:44px;margin-top:80px}.why-drivers article{border-top:1px solid #ffffff55;padding-top:28px}.why-drivers article>span{font-size:46px;color:var(--coral-soft)}.why-drivers h3{font-size:34px;margin:30px 0 22px}.why-drivers p{font-size:23px;line-height:1.45;color:#ffffffb8}.why-now .source{color:#ffffff90}
+.entry-sequence{display:grid;gap:0;margin-top:auto;font-size:20px}.entry-sequence span{padding:24px 0;border-top:1px solid #ffffff55}.market-tile--digital .market-tile-value{font-size:76px;line-height:1}.market-path-head{font-size:30px}.market-tile--pricing .market-tile-value{font-size:54px}
+.alternative-matrix{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;height:470px}.alternative-card{padding:34px;background:var(--paper-warm);border:1px solid var(--line);border-radius:18px;display:flex;flex-direction:column}.alternative-card:last-child{background:var(--sky)}.alternative-card>span{font-size:12px;letter-spacing:.08em;color:var(--muted)}.alternative-card h3{font-size:32px;line-height:1.2;margin:30px 0}.alternative-card p{font-size:19px;line-height:1.4;color:var(--muted)}.alternative-card>b{font-size:21px;font-weight:500;line-height:1.4;border-top:2px solid var(--coral);padding-top:20px;margin-top:auto}.competition .source{max-width:1250px}
+.founder-copy{padding-top:85px}.founder-copy h2{font-size:57px}.founder-copy .lede{font-size:23px}.founder-name{margin-top:26px}.founder-bio{font-size:19px;line-height:1.4;color:var(--muted);max-width:600px;margin:12px 0 0}.founder-duo{display:grid;grid-template-columns:1fr 1fr;align-content:center;gap:18px;padding:50px;background:var(--sand)}.founder-duo figure{margin:0;min-width:0}.founder-duo figure img{width:100%;height:320px;object-fit:cover;border-radius:72px 16px 16px 16px}.founder-duo figcaption{font-size:19px;margin-top:20px}.founder-duo>span{grid-column:1/-1;font-size:23px;line-height:1.4;margin-top:45px;max-width:440px}
+.close-slide{background:var(--forest)}.close-slide .close-copy{z-index:1}.close-card{z-index:2}.contact-links{display:flex;gap:30px;margin-top:35px;font-size:20px;color:#ffffffbd}.contact-links a{text-decoration:none}.close-slide .slide-no{color:#ffffff88}
+.variant-switch{position:fixed;left:18px;bottom:18px;z-index:50;font-size:12px;color:#c9c9c4;text-decoration:none;padding:8px 12px;background:#22221f;border:1px solid #ffffff20;border-radius:20px}
+@media print{.variant-switch{display:none}}
+.rivane-quadrant .preferred-quadrant::after{content:"Our target position"}
+.rivane-quadrant .positioning-category{width:auto;height:auto;padding:14px 20px;cursor:default}
+.positioning-category strong{font-size:19px;font-weight:550;letter-spacing:-.025em}
+.rivane-quadrant .rivane-position{flex-direction:column;gap:12px;padding:23px 28px;cursor:default}
+.rivane-quadrant .rivane-position img{width:180px;max-width:none;height:auto}
+.rivane-position small{font-size:12px;letter-spacing:.02em;color:var(--muted)}
+.founder-duo{padding:40px;gap:18px;align-content:center}.founder-duo figure img{height:280px}.founder-companies{grid-column:1/-1;margin-top:26px;border-top:1px solid #1f2f2a30;padding-top:22px}.founder-companies>p{font-size:11px;letter-spacing:.14em;color:var(--muted);margin:0 0 16px}.company-logo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.company-logo{height:80px;overflow:hidden;border-radius:8px;display:flex;align-items:center;justify-content:center;background:white}.company-logo img{width:100%;height:100%;object-fit:contain}.company-logo--ola{background:#000}.company-logo--ola img{width:150px;height:150px;max-width:none}.company-logo--rippling{background:#800066}.company-logo--disney-hotstar{background:#081530}.company-logo--disney-hotstar img{width:140px;height:105px;max-width:none}
+.founder-companies{width:100%;min-width:0}.company-logo--ema img{width:190px;height:111px;max-width:none;flex-shrink:0}
+
+/* Rivane palette and brand imagery, preserving the V2 layout. */
+.cover-photo{background:#4d0b25}.cover-photo>img:first-child{filter:none}
+.why-now,.close-slide{background:linear-gradient(135deg,#4d0b25,#851a42 55%,#a34266)}
+.market-tile--digital{background:#741938}
+.market-tile--clinics{background:#33101f}
+.why-now::before,.close-slide::before{content:"";position:absolute;inset:0;background:url("assets/rivane-blush-paper.png") 115% 120% / 640px no-repeat;opacity:.1;pointer-events:none}
+.entity-record{border-color:#d5bfca}.founder-companies{border-color:#74193830}
+.cover-timeline{border-color:#e4dbdf;background:rgba(255,250,250,.96)}
+.variant-switch{background:#33101f;color:#f0e3e8}
+
+/* Generated Rivane artwork, rendered as full background imagery. */
+.problem::before{opacity:.7}
+/* Keep the opportunity cards flat so their content carries the hierarchy. */
+.market-tile::before,.market-tile::after{content:none}
+.preferred-quadrant::before{background-image:url("assets/rivane-blush-paper.png");background-size:cover;inset:0;width:auto;height:auto;transform:none;opacity:.55}
+.why-now::before,.close-slide::before{background:linear-gradient(90deg,rgba(51,16,31,.88),rgba(51,16,31,.45)),url("assets/rivane-burgundy-paper.png") center / cover;opacity:1}
+.founder-duo{background:linear-gradient(#faf8f733,#faf8f733),url("assets/rivane-blush-paper.png") center / cover}
+.progress-copy h2{font-size:56px}
+.progress-slide .stage-card{top:380px;left:76px;width:750px;min-height:0;transform:none;animation:none;background:#faf8f7;box-shadow:0 16px 40px #33101f12}
+.stage-card h3{font-size:38px;margin:18px 0 10px;letter-spacing:-.035em}
+.adoption-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:30px}
+.adoption-steps>div{border-top:1px solid #d5bfca;padding-top:16px}
+.adoption-steps span{display:block;font-size:13px;color:var(--coral);margin-bottom:12px}
+.adoption-steps b{display:block;font-size:18px;font-weight:550;line-height:1.25}
+.adoption-steps small{display:block;font-size:15px;line-height:1.4;color:var(--muted);margin-top:8px}
+
+/* ERP examples stay tucked away until hover, keyboard focus or tap. */
+.positioning-category:has(.erp-trigger){padding:0;cursor:pointer}
+.positioning-category:has(.erp-trigger):hover,.positioning-category:has(.erp-trigger):focus-within{z-index:20}
+.erp-trigger{font:inherit;font-size:19px;font-weight:550;letter-spacing:-.025em;color:var(--ink);background:none;border:0;border-radius:10px;padding:14px 20px;cursor:pointer}
+.erp-trigger>span{margin-left:12px;color:var(--muted)}
+.erp-trigger:focus-visible{outline:2px solid var(--coral);outline-offset:4px}
+.erp-examples{position:absolute;top:100%;left:50%;transform:translateX(-50%);width:360px;padding:22px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 16px 38px #33101f20;white-space:normal;visibility:hidden;opacity:0;transition:opacity .15s;pointer-events:none}
+.erp-examples>p{font-size:13px;color:var(--muted);margin:0 0 20px}
+.erp-brands{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.erp-brands>div{display:flex;flex-direction:column;align-items:center;gap:16px}
+.erp-brands img{width:120px;max-width:120px;height:48px;max-height:48px;object-fit:contain}
+.erp-brands strong{font-size:15px;font-weight:500;letter-spacing:0}
+.positioning-category:hover .erp-examples,.positioning-category:focus-within .erp-examples,.positioning-category.is-open .erp-examples{visibility:visible;opacity:1;pointer-events:auto}
+.positioning-category.is-dismissed .erp-examples{visibility:hidden;opacity:0;pointer-events:none}
+
+/* A quiet location beacon, animated only on the visible slide. */
+.customer .city-line i{position:relative;flex-shrink:0;background:#edb5cc;box-shadow:none}
+.customer .city-line i::before,.customer .city-line i::after{content:"";position:absolute;inset:-1px;border:1px solid #edb5cc;border-radius:50%;opacity:0;pointer-events:none}
+.customer.active .city-line i::before,.customer.active .city-line i::after{animation:gulf-ripple 2.8s ease-out infinite}
+.customer.active .city-line i::after{animation-delay:1.4s}
+@keyframes gulf-ripple{0%{transform:scale(1);opacity:.7}80%,100%{transform:scale(3);opacity:0}}
+@media(prefers-reduced-motion:reduce){.customer.active .city-line i::before,.customer.active .city-line i::after{animation:none}}
+
+.problem-time{
+  background:linear-gradient(135deg,rgba(255,252,253,.72),rgba(255,248,251,.48));
+  -webkit-backdrop-filter:blur(24px) saturate(115%);
+  backdrop-filter:blur(24px) saturate(115%);
+  border:1px solid rgba(255,255,255,.75);
+  border-radius:24px;
+  box-shadow:0 20px 60px rgba(51,16,31,.10),inset 0 1px 0 rgba(255,255,255,.8);
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  .problem-time{background:rgba(255,250,252,.9)}
+}
+
+/* Supporting copy remains legible when the presentation canvas scales down. */
+.clinic-type{grid-template-columns:76px 190px 1fr;gap:16px;min-height:112px}
+.clinic-type p{font-size:22px;line-height:1.4;color:#655860}
+.clinic-type h3{font-size:22px}
+.entity-record,.discovery-list span,.workflow-row p,.plan p,.founder-bio{font-size:22px;line-height:1.4}
+.workflow-row .when{font-size:19px}
+.problem-time-head{font-size:16px;letter-spacing:0}
+.problem-time-head span{letter-spacing:.025em}
+.problem-quote>span{font-size:14px}
+.market-tile-label{font-size:17px}
+.market-tile p,.market-tile--pricing p{font-size:20px;line-height:1.4}
+.market-price-ladder>div,.market-path>span{font-size:15px}
+.market-price-ladder b,.market-path b{font-size:17px}
+.loop-line span,.plan-feature,.video-cta small{font-size:19px}
+.status-line{font-size:20px}
+.adoption-steps b{font-size:20px}
+.adoption-steps small{font-size:18px}
+.founder-companies>p{font-size:14px;letter-spacing:.09em}
+.close-card p{font-size:21px}
+.slide .source{font-size:14px;line-height:1.4;max-width:1350px}
+.video-cta>span{position:relative;display:grid;place-items:center;flex:0 0 50px;width:50px;height:50px;border:1px solid #ffffff55;border-radius:50%;font-size:21px;padding-left:3px;background:#ffffff12}
+.video-cta>span::before,.video-cta>span::after{content:"";position:absolute;inset:0;border:1px solid #ffffff70;border-radius:50%;pointer-events:none;opacity:0}
+.product.active .video-cta>span::before,.product.active .video-cta>span::after{animation:demo-ripple 3s ease-out infinite}
+.product.active .video-cta>span::after{animation-delay:1.5s}
+@keyframes demo-ripple{0%{transform:scale(1);opacity:.45}80%,100%{transform:scale(1.55);opacity:0}}
+@media(prefers-reduced-motion:reduce){.product.active .video-cta>span::before,.product.active .video-cta>span::after{animation:none}}
+
+/* Four tiers with a distinct enterprise offer and clear expansion revenue. */
+.business{grid-template-rows:auto auto auto;align-content:start}
+.business-head{padding:100px 70px 0}
+.business-head h2{font-size:52px}
+.business-head .lede{font-size:24px;margin-top:18px}
+.business .plans{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:38px 70px 0;border:0;align-self:auto}
+.business .plan,.business .plan+.plan,.business .plan:last-child{display:flex;flex-direction:column;min-height:360px;padding:28px 24px;border:1px solid var(--line);border-radius:18px;background:#fffafc}
+.business .plan-name{font-size:23px;color:var(--ink);font-weight:550}
+.business .plan-price{font-size:48px;margin-top:26px;white-space:nowrap}
+.business .plan-price small{display:block;font-size:18px;margin-top:10px;letter-spacing:0;color:var(--muted)}
+.business .plan p{font-size:21px;line-height:1.4;margin:16px 0 0}
+.business .plan .plan-scope{font-size:23px;font-weight:550;color:var(--ink);margin-top:25px}
+.business .plan-feature{font-size:17px;margin-top:auto;padding-top:14px}
+.business .plan.plan--enterprise{background:#741938;border-color:#741938}
+.business .plan--enterprise .plan-name,.business .plan--enterprise .plan-price,.business .plan--enterprise .plan-scope{color:#fff}
+.business .plan--enterprise p,.business .plan--enterprise .plan-price small,.business .plan--enterprise .plan-feature{color:#f0dce5}
+.business .plan--enterprise .plan-feature{border-color:#d89cb5}
+.business-expansion{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:24px 70px 0;padding-top:18px;border-top:1px solid var(--line);font-size:18px;color:var(--muted)}
+.business-expansion b{display:block;margin-bottom:6px;font-size:19px;color:var(--ink);font-weight:550}
+
+/* Presentation type hierarchy, measured on the 1600 × 900 canvas. */
+.slide .eyebrow,.cover-foot,.market-tile-label{font-size:20px}
+.slide .source{font-size:16px;line-height:1.35;left:70px;right:130px;max-width:none;bottom:30px;color:#786a72}
+.slide .slide-no{font-size:17px;right:58px;bottom:30px}
+.why-now .source,.close-slide .slide-no{color:#ead5de}
+.problem-quote>span{font-size:18px;letter-spacing:.015em}
+.problem-time-head{align-items:flex-start;gap:18px;font-size:18px}
+.problem-time-head span{max-width:310px;line-height:1.3}
+.problem-time-head b{white-space:nowrap;font-size:17px}
+.visit-time-total{flex-wrap:wrap;gap:8px 16px}
+.visit-time-total>span,.visit-time-takeaway>span{font-size:20px;line-height:1.4}
+.market-price-ladder>div,.market-path>span{font-size:18px;line-height:1.35}
+.market-price-ladder b,.market-path b{font-size:19px}
+.stage-card>p,.adoption-steps small,.loop-line span{font-size:20px}
+.adoption-steps span{font-size:17px}
+.erp-trigger,.positioning-category strong{font-size:22px}
+.matrix-edge-label{font-size:16px!important;letter-spacing:.035em;padding:8px 12px}
+.preferred-quadrant::after{font-size:16px;letter-spacing:.05em}
+.rivane-position small{font-size:18px}
+.business .plan-feature{font-size:19px;line-height:1.35;min-height:44px}
+.business .plan-price small,.business-expansion,.business-expansion b{font-size:20px}
+.business .plan{min-height:380px}
+.founder-role,.founder-duo figcaption{font-size:22px}
+.founder-companies>p{font-size:18px}
+.next-proof span{font-size:21px}
+/* UI illustrations use a separate, compact scale from the slide narrative. */
+.story-card :is(span,small,b,time,p,strong){font-size:16px}
+.story-card-title strong{font-size:23px}
+.story-patient-copy strong,.story-record-patient strong{font-size:20px}
+.story-card .story-badge{font-size:14px}
+.story-card .transcript-line{font-size:16px;line-height:1.35}
+.story-card .transcript-line :is(b,time){font-size:14px}
+.cover-timeline-head,.cover-timeline-head strong,.cover-timeline-step{font-size:16px}
+.story-card .visit-field{gap:8px;font-size:16px}
+.story-card .visit-field strong{font-size:16px}
+.story-card .visit-field{flex-wrap:wrap}
+.rivane-quadrant .rivane-position{min-width:285px}
+.business .plan p:not(.plan-scope){margin-bottom:16px}
+.market-tile--pricing p{margin-top:12px;margin-bottom:14px}
+.market-tile--pricing .market-tile-value{font-size:50px}
+.close-card strong{display:block;font-size:38px;line-height:1.1;margin-bottom:18px;font-weight:550;letter-spacing:-.03em}
+.close-card p+p{margin-top:16px}
+
+/* Full-height canvas; controls reveal on hover/focus when no gutter exists. */
+.controls-over-slide .deck-controls,.controls-over-slide .variant-switch{opacity:0;transition:opacity .2s}
+.controls-over-slide .deck-controls:hover,.controls-over-slide .deck-controls:focus-within,.controls-over-slide .variant-switch:hover,.controls-over-slide .variant-switch:focus-visible{opacity:1}
+@media(hover:none){.controls-over-slide .deck-controls{opacity:.35}.controls-over-slide .deck-controls:focus-within{opacity:1}}
+.product-copy h2{font-size:56px}
+.workflow-row{padding-top:20px;padding-bottom:20px}
+.why-drivers{margin-top:56px}
+.why-drivers h3{font-size:30px}
+.close-slide .close-copy{max-width:1080px;padding-right:70px}
+.close-slide h1{font-size:68px;max-width:870px}
+.close-slide .close-copy>.lede,.close-slide .close-copy .lede{max-width:750px;font-size:27px}
+.close-card{width:405px;right:64px;bottom:100px;padding:30px;background:rgba(51,16,31,.72);backdrop-filter:blur(16px)}
+.close-card>strong{font-size:27px;margin-bottom:24px}
+.funding-line{padding:16px 0;border-top:1px solid #ffffff30}
+.funding-line b{font-size:21px;font-weight:550;line-height:1.3}
+.funding-line p{font-size:20px;margin:8px 0 0}
+.close-card .funding-note{font-size:17px;line-height:1.35;margin:16px 0 0;color:#dac1cd}
+
+/* Keep the product workflow clear of its source note. */
+.product-copy .workflow{margin-top:24px}
+
+/* A consistent quiet signature, clear of the reading column. */
+.slide > .brand-lockup{left:auto;right:64px;top:38px}
+.slide > .brand-lockup .rivane-brand{width:150px}
+.customer .city-line{right:auto;left:64px;top:36px}
+
+.problem-time{padding-top:32px;padding-bottom:28px}
+.problem-time .discovery-list{margin:20px 0}
+.problem-time .discovery-list>div{padding:17px 0}
+
+/* Investment landscape: one thesis, then evidence ordered by relevance. */
+.capital-slide{background:var(--paper-bright);color:var(--ink)}
+.capital-editorial{padding:88px 70px 60px}
+.capital-editorial header h2{font-size:58px;line-height:1.06;letter-spacing:-2px;margin:16px 0 30px}
+.capital-landscape{display:grid;grid-template-columns:460px 1fr;gap:44px}
+.capital-thesis{background:#6e193a;color:#fff;border-radius:24px;padding:34px 34px 28px;display:flex;flex-direction:column}
+.capital-thesis .eyebrow{color:#e5cbd5;font-size:19px;margin:0 0 22px}
+.capital-thesis h3{font-size:52px;line-height:1.06;letter-spacing:-2px;margin:0 0 24px;font-weight:500}
+.capital-thesis>p{font-size:23px;line-height:1.4;color:#eddae2;margin:0}
+.capital-strategy{border-top:1px solid #ffffff40;padding-top:22px;margin-top:auto;font-size:22px;line-height:1.4}
+.capital-strategy b{display:block;font-weight:500;margin-bottom:6px}
+.capital-strategy span{color:#eddae2}
+.capital-evidence h4{font-size:18px;font-weight:500;color:#781b40;margin:0;padding:0 0 12px;letter-spacing:.035em}
+.funding-row{display:grid;grid-template-columns:1fr 145px 190px;gap:18px;align-items:center;text-decoration:none;color:inherit;border-top:1px solid #ddcfd5;padding:9px 0;min-height:72px}
+.funding-company h3{font-size:25px;font-weight:500;letter-spacing:-.6px;margin:0 0 4px}
+.funding-company p{font-size:18px;line-height:1.25;color:var(--muted);margin:0}
+.funding-row>strong{font-size:32px;font-weight:500;letter-spacing:-1px}
+.funding-meta{font-size:17px;line-height:1.4;color:var(--muted)}
+.capital-evidence .capital-context-label{padding-top:23px}
+.capital-evidence>.funding-row:nth-of-type(-n+2)>strong{color:#781b40;font-size:40px}
+.funding-row:hover .funding-company h3{text-decoration:underline;text-underline-offset:4px}
+.funding-row:focus-visible{outline:2px solid #781b40;outline-offset:5px}
+
+.market-tile--digital .market-tile-value{font-size:64px;white-space:nowrap;margin-bottom:24px}
+.market-tile--digital .entry-sequence{margin-top:24px}
+.market-tile--digital .entry-sequence span{padding-top:25px;padding-bottom:25px}
+
+/* Founder credentials sit beside the person they belong to. */
+.founder-refresh{display:block;background:var(--paper-bright)}
+.team-layout{padding:90px 70px 65px}
+.team-heading h2{font-size:60px;line-height:1.1;letter-spacing:-2.4px;margin:18px 0}
+.team-heading>p:last-child{font-size:25px;line-height:1.35;color:var(--muted);margin:0}
+.team-profiles{display:grid;grid-template-columns:1fr 1fr;gap:44px;margin-top:44px}
+.team-profile{padding:28px 30px 22px;border-top:2px solid #8a3656;background:#f1e8ec;border-radius:0 0 22px 22px}
+.team-person{display:flex;align-items:center;gap:28px}
+.team-portrait{width:200px;height:215px;object-fit:cover;object-position:center 35%;border-radius:64px 14px 14px 14px}
+.team-discipline{font-size:16px;letter-spacing:.07em;color:#781b40}
+.team-person h3{font-size:43px;line-height:1.06;letter-spacing:-1.6px;margin:18px 0 12px;font-weight:500}
+.team-role{font-size:21px;color:var(--muted);margin:0}
+.team-proof{margin-top:26px}
+.team-proof h4{font-size:22px;font-weight:500;margin:18px 0 6px}
+.team-proof p{font-size:21px;color:var(--muted);line-height:1.35;margin:0;min-height:29px}
+.team-experience{display:flex;gap:12px;align-items:center;border-top:1px solid #d9c9d0;padding-top:18px;margin-top:24px}
+.team-experience>span{font-size:17px;color:var(--muted);margin-right:auto}
+.team-experience img{width:112px;height:42px;object-fit:contain;border-radius:5px;background:white}
+
+/* Let each company asset keep its own background and natural proportions. */
+.team-experience img{width:auto;height:46px;max-width:130px;object-fit:contain;background:transparent;flex-shrink:0}
+
+/* Extend the artwork background across each consistent logo tile. */
+.team-experience img{width:112px;height:46px;max-width:112px;object-fit:contain;background:#fff}
+.team-experience img[alt="Ola"]{background:#000}
+.team-experience img[alt="Rippling"]{background:#80006a}
+.team-experience img[alt="Disney+ Hotstar"]{background:#071631}
+
+/* Give founder proof room without shrinking the narrative text. */
+.team-profiles{margin-top:30px}
+.team-portrait{width:160px;height:165px}
+.team-person h3{font-size:38px;margin:12px 0 8px}
+.team-profile{display:flex;flex-direction:column}
+.team-proof{margin-top:16px}
+.team-proof h4{margin-top:14px}
+.team-proof .team-local{font-size:18px;margin-top:14px}
+.team-experience{margin-top:auto;padding-top:14px}
+.team-proof{padding-bottom:20px}
+.team-logo-zoom{display:flex;width:112px;height:46px;flex-shrink:0;overflow:hidden;align-items:center;justify-content:center;border-radius:5px}
+.team-logo-zoom--ola{background:#000}
+.team-logo-zoom--disney-hotstar{background:#071631}
+.team-logo-zoom img{transform:scale(1.55);background:transparent}
+
+.founder-refresh .team-layout{padding-top:76px}
+.founder-refresh .team-heading h2{margin-top:14px;margin-bottom:14px}
+.founder-refresh .team-profiles{margin-top:24px}
+.team-experience>.team-logo-zoom{margin-right:0}
